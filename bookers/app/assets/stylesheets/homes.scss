@@ -3,7 +3,27 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 .text1 {
   margin: 33px;
 }
 
+.font1 {
+  margin-right: 9px;
+  margin-left: 9px;
+font-weight: bold;
+}
+
+.font2 {
+  margin-right: 5px;
+font-weight: bold;
+}

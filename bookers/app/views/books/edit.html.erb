@@ -1,5 +1,14 @@
 <h1>Edithing Book</h1>
 
+<!--エラー文-->
+<% if @book.errors.any? %>
+<%= @book.errors.count %>errors prohibited this book from being saved:
+<% @book.errors.full_messages.each do |message| %>
+<p><%= message %></p>
+<% end %>
+<% end %>
+<!--ここまで-->
+
 <%= form_with model:@book, local: true do |f| %>
 <p>Title</p>
 <%= f.text_field :title %>
