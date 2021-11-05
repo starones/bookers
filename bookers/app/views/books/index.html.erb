@@ -1,5 +1,5 @@
 <% if flash[:notice] %>
-  <p><%= flash[:notice] %></p>
+  <p id="notice"><%= flash[:notice] %></p>
 <% end %>
 
 <main>
@@ -55,7 +55,7 @@
 <%= f.text_area :body %>
 </div>
 
-<%= f.submit 'Create Book' %>
+<%= f.submit ' Create Book ' %>
 
 <% end %>
 </main>
